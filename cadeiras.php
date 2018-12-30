@@ -28,7 +28,7 @@
     <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Dancing+Script" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Do+Hyeon" rel="stylesheet">
-
+      <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Great+Vibes" rel="stylesheet">
 
   </head>
@@ -45,6 +45,7 @@
                       MENU
                   </a>
                   <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <a class="dropdown-item" href="index.php">Home</a>
                       <a class="dropdown-item" href="cadeiras.php">Cadeiras</a>
                       <a class="dropdown-item" href="banquetas.php">Banquetas & Bancos</a>
                       <a class="dropdown-item" href="mesas.php">Mesas</a>
@@ -151,5 +152,9 @@
 
     <script src="js/bootstrap.min.js"></script>
     <script src="js/lightbox.js"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+      AOS.init();
+  </script>
   </body>
 </html>

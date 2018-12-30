@@ -20,7 +20,6 @@
 		<meta name="googlebot" content="index, follow"/>
 		<meta http-equiv="content-language" content="pt-br"/>
 		<meta name="author" content="wayster de melo"/>
-		<meta http-equiv="pragma" content="no-cache"/>
 		<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
 		<meta http-equiv="X-UA-Compatible" content="IE=9">
     <title alt="styllus moveis, stylus moveis, moveis, cadeiras">Styllus Moveis</title>
@@ -30,6 +29,7 @@
     <link rel="stylesheet" href="css/style.css">
     <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
     <link rel="stylesheet" href="css/lightbox.css">
+
   </head>
   <body>
 
@@ -40,7 +40,7 @@
       <div class="collapse navbar-collapse" id="menu">
           <ul class="navbar-nav ml-auto">
               <li class="nav-item dropdown">
-                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  <a class="nav-link dropdown-toggle" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                       MENU
                   </a>
                   <div class="dropdown-menu" aria-labelledby="navbarDropdown">
