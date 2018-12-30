@@ -24,12 +24,12 @@
 		<meta http-equiv="X-UA-Compatible" content="IE=9">
     <title alt="styllus moveis, stylus moveis, moveis, cadeiras">Styllus Moveis</title>
     <link rel="icon" href="css/img/Pchair.png">
+      <link rel="stylesheet" href="css/style_index.css">
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/font-awesome.min.css">
-    <link rel="stylesheet" href="css/style.css">
     <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
     <link rel="stylesheet" href="css/lightbox.css">
-
+      <script src="https://code.jquery.com/jquery-2.2.4.js"></script>
   </head>
   <body>
 

@@ -21,8 +21,8 @@
     <link rel="stylesheet" href="css/EstiloCadeiras.css">
     <link rel="stylesheet" href="css/animate.min.css">
     <link rel="stylesheet" href="css/lightbox.css">
-    <script src="js/jquery.min.js"></script>
-    <!--  propagandas text-->
+      <script src="https://code.jquery.com/jquery-2.2.4.js"></script>
+      <!--  propagandas text-->
     <link href="https://fonts.googleapis.com/css?family=Patua+One" rel="stylesheet">
     <!-- navbar text -->
     <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
