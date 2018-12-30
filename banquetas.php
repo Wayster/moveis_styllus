@@ -19,7 +19,7 @@
     <link rel="stylesheet" href="css/font-awesome.min.css">
     <link rel="stylesheet" href="css/animate.min.css">
     <script src="js/jquery.min.js"></script>
-		<link rel="stylesheet" href="css/estilobanqueta.css">
+		<link rel="stylesheet" href="css/stylle_banqueta.css">
 		<link rel="stylesheet" href="css/lightbox.css">
     <!--  propagandas text-->
     <link href="https://fonts.googleapis.com/css?family=Patua+One" rel="stylesheet">
@@ -33,57 +33,36 @@
 <body>
 
 
-	  <nav class="navbar navbar-expand-md navbar-light fixed-top">
-        <a class="navbar-brand" href="index.php">
-        	  <img src="css/img/newlogo.png" class="img-fluid" style="width:200px">
-        </a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar1">
+<nav class="navbar navbar-expand-sm navbar-light fixed-top">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#menu" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbar1">
+    </button>
+    <div class="collapse navbar-collapse" id="menu">
         <ul class="navbar-nav ml-auto">
-            <li class="nav-item"><a class="nav-link" href="index.php">
-              <img src="css/img/home.png">
-              Styllus</a>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    MENU
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="cadeiras.php">Cadeiras</a>
+                    <a class="dropdown-item" href="banquetas.php">Banquetas & Bancos</a>
+                    <a class="dropdown-item" href="mesas.php">Mesas</a>
+                    <a class="dropdown-item" href="racks.php">Racks & Aparadores</a>
+
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="contact.php"> Contato</a>
+                </div>
             </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-              <img src="css/img/sofa.png">
-                Produtos
-            </a>
-            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <a class="dropdown-item" href="cadeiras.php">
-                Cadeiras
-              </a>
-             
-              <a class="dropdown-item" href="banquetas.php">
-                Banquetas & Bancos</a>
-
-               <a class="dropdown-item" href="racks.php">
-                Racks & Aparadores</a>
-
-              <a class="dropdown-item" href="mesas.php">
-                Mesas</a>
-            </div>
-          </li>
-          <li class="nav-item"><a class="nav-link" href="contact.php">
-             <img src="css/img/contact.png">
-            Contato</a></li>
-
         </ul>
-      </div>
-      </nav>
-
-       <div id="bgCadeiras">
-      <div class="container">
-        <div class="row">
-           <div class="text-center text">
-            <h1>As banquetas são adequadas para quase todos os esquemas modernos de design de interiores.</h1>
-            <p>A coleção tem diferentes soluções para o assento, desde o modelo básico em palhas até o totalmente estofado</p>
-          </div>
-        </div>
-      </div>
     </div>
+</nav>
+
+<div class="inicio">
+    <div class="overlay">
+        <h1 class="text text-center" alt="styllus moveis, stylus moveis, moveis, cadeiras">As banquetas são adequadas para quase todos os esquemas modernos de design de interiores.</h1>
+        <p class=" text-center">A coleção tem diferentes soluções para o assento, desde o modelo básico em palhas até o totalmente estofado</p>
+    </div>
+</div>
 
 		<!-- products -->
 		<section id="products" class="bg-light mb-5">
