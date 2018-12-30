@@ -1,0 +1,225 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Oswald', serif;
+
+}
+
+.inicio{
+  background:url('img/slider2.jpg');
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 700px;
+
+}
+
+.overlay{
+  width: 100%;
+  height: 100%;
+  background-color: #696e79;
+  opacity: 0.8;
+
+}
+
+.text{
+  color: white;
+  padding-top: 20%;
+}
+
+.overlay h1{
+  font-size: 5rem;
+}
+.overlay p {
+color: #ccc1b7;
+}
+
+ .lado1{
+  background: url('img/lado1new.png');
+  background-size: 55%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  height: 650px;
+  }
+
+  .overlaylado1{
+    background-color: #ccc1b7;
+    width: 100%;
+    height: 100%;
+    opacity: 0.8;
+  }
+  .texto {
+    margin-top: -100%;
+  }
+
+.lado3{
+  background: url('img/mesa.png');
+  background-size: 150%;
+  background-repeat: no-repeat;
+  height: 650px;
+
+}
+
+.overlaylado3{
+  background-color: #ede5d9;
+  width: 100%;
+  height: 100%;
+  opacity: 0.6;
+}
+
+.textoS{
+  margin-top: 900px;
+}
+
+.ideias img{
+width: 10%;
+}
+
+#about img{
+  width: 140px;
+}
+
+#about .textoabout{
+  font-size: 29px;
+}
+.logo img{
+  margin-top: 35%;
+}
+
+.navbar #menu {
+  margin-right: 100px;
+  margin-top: 20px;
+
+}
+
+.navbar #menu ul li a {
+  color: #ccc1b7;
+}
+
+.navbar #menu ul li a:hover {
+  color: #696e79;
+}
+
+#products {
+      font-family: 'Oswald', serif;
+   }
+   .card{
+    margin: auto;
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px 10px 10px 10px;
+    box-shadow: 100px;
+    transform: scale(0.95);
+    transition: box-shadow 0.2s, transform 0.5s;
+    width:300px;
+    height: 300px;
+   }
+   .card h4{
+    font-size: 20px;
+   }
+
+   .card img{
+    max-height: 200px;
+    min-width: 50%;
+    border: 5px solid #eddfc4;
+    background: white;
+    display: block;
+   margin-left: auto;
+   margin-right: auto;
+
+   }
+
+    .card:hover {
+      transform: scale(1);
+      box-shadow: 5px 20px 30px rgba(0, 0, 0, 0.2);
+      background: #eddfc4;
+
+    }
+
+    #esp .card1{
+      width: 30%;
+      margin: auto;
+      border: 3px solid #696e79;
+    }
+
+    @media (max-width: 769px){
+      .lado1{
+       background: url('img/lado1new.png');
+       background-size: 100%;
+       background-repeat: no-repeat;
+       background-attachment: fixed;
+       height: 650px;
+       }
+
+       .overlaylado1{
+         background-color: #ccc1b7;
+         width: 100%;
+         height: 100%;
+         opacity: 0.8;
+       }
+       .texto {
+         border: 2px solid red;
+         margin-top: -100%;
+       }
+
+     .lado3{
+       background: url('img/mesa.png');
+       background-size: 90%;
+       background-repeat: no-repeat;
+       height: 650px;
+       background-attachment: fixed;
+
+     }
+
+     .overlaylado3{
+       background-color: #ede5d9;
+       width: 100%;
+       height: 100%;
+       opacity: 0.6;
+     }
+     .logo img{
+       margin-top: 200px;
+     }
+    }
+
+    @media (max-width:500px){
+      .inicio{
+        background:url('img/slider2.jpg');
+        background-size: 290%;
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        width: 100%;
+        height: 500px;
+
+      }
+
+      .overlay{
+        width: 100%;
+        height: 100%;
+        background-color: #696e79;
+        opacity: 0.8;
+
+      }
+
+      .text{
+        color: white;
+        padding-top: 50%;
+      }
+      .logo img{
+        margin-top: 100px;
+      }
+
+      #esp h1{
+        font-size: 18px;
+        }
+
+        #esp .card1{
+          width: 50%;
+        }
+
+        #esp ul li a {
+          border: 3px solid #696e79;
+        }
+
+    }

@@ -1,0 +1,221 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+  .navbar ul li a {
+    font-family: 'Oswald', sans-serif;
+    font-size: 12px;
+    margin-right: 15px; }
+
+  .dropdown-menu a {
+    font-family: 'Oswald', sans-serif;
+    background: #eddfc4; }
+
+.bg {
+  width: 100%;
+  height: 700px;
+  background: url(img/poltronaBG.png) center no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  font-family: 'Francois One', sans-serif; }
+
+.text {
+  width: 50%;
+  margin-left: 400px;
+  margin-top: 100px; }
+  .text h1 {
+    font-size: 3rem; }
+
+
+  #products {
+        font-family: 'Cormorant Garamond', serif;
+        background: white;
+     }
+     .card{
+      margin: auto;
+      position: relative;
+      overflow: hidden;
+      border-radius: 10px 10px 10px 10px;
+      box-shadow: 100px;
+      transform: scale(0.95);
+      transition: box-shadow 0.2s, transform 0.5s;
+      width:300px;
+      height: 300px;
+     }
+     .card h4{
+      font-size: 20px;
+     }
+
+     .card img{
+      max-height: 200px;
+      min-width: 50%;
+      border: 5px solid #eddfc4;
+      background: white;
+      display: block;
+     margin-left: auto;
+     margin-right: auto;
+
+     }
+
+
+    #products .card:hover {
+      transform: scale(1);
+      box-shadow: 5px 20px 30px rgba(0, 0, 0, 0.2);
+      background: #eddfc4; }
+
+
+.cordefundofooter img {
+  width: 200px;
+  height: 200px;
+  margin: 0 auto;
+  margin-top: 30px; }
+
+.cordefundofooter li a {
+  color: gray;
+  font-size: 12px; }
+
+/* @media (min-width: 2000px) {
+  .bg {
+    height: 1000px; }
+    .bg h3 {
+      font-size: 6rem; }
+    .bg p {
+      font-size: 2rem; } }
+
+    .text {
+      width: 50%;
+      margin-left: 250px;
+      margin-top: 200px; }
+      .text h3{
+        font-size: 2rem;
+       }
+       .text p{
+         font-size: 1rem;
+        }
+} */
+
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px){
+  .bg{
+    background-size: 100%;
+  }
+  .text h3{
+    font-size: 3rem;
+    width: 560px;
+    margin-left: -50px;
+    color:#eddfc4;
+  }
+
+  .text p{
+    width: 560px;
+    margin-left: -50px;
+    color:#eddfc4;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px){
+  .bg{
+    background-size: 100%;
+    height: 850px;
+  }
+  .text h3{
+    font-size: 4rem;
+    width: 800px;
+    margin-left: -50px;
+    color:#eddfc4;
+  }
+
+  .text p{
+    width: 560px;
+    margin-left: 80px;
+    color:#eddfc4;
+  }
+}
+
+
+@media(min-width: 1200px){
+  .bg{
+    background-size: 100%;
+    height: 800px;
+  }
+
+  .bg .text{
+    margin-top: 100px;
+    font-family: 'Do Hyeon', sans-serif;
+    width: 90%;
+    margin-left: 550px;
+
+  }
+  .text h3{
+    font-size: 4rem;
+    font-weight: 800;
+  }
+
+  .cordefundofooter iframe{
+      width: 100%;
+  }
+}
+
+
+@media(min-width: 2000px){
+  .bg{
+    background-size: 100%;
+    height: 1300px;
+  }
+
+  .bg .text{
+    margin-top: 200px;
+    font-family: 'Do Hyeon', sans-serif;
+    margin-left: 50px;
+
+  }
+  .text h3{
+    font-size: 6rem;
+    font-weight: 800;
+    width: 1500px;
+  }
+
+  .text p{font-size: 3rem;
+  font-weight: 800;
+  width: 1500px;
+  }
+
+  .cordefundofooter iframe{
+      width: 100%;
+  }
+
+  .navbar ul li a{
+        font-size: 2rem;
+        margin-right: 50px;
+  }
+
+  #products h4{
+      font-size: 4rem;
+
+  }
+}
+
+@media (max-width: 768px){
+    .bg{
+        height: 500px;
+        background: url(img/poltronaBG.png);
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: 150%;
+       }
+       .text {
+         width: 80%;
+          margin: 0 auto;
+          margin-top: 300px;
+
+     color:gray}
+         .text h1 {
+           font-size: 12px;
+         }
+    
+    		.navbar  {
+			font-family: 'Oswald', sans-serif;
+			background: #eddfc4; }
+      
+}

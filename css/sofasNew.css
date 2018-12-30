@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+.bg {
+  background: url(img/sofaNew.png);
+  background-size: cover;
+  height: 800px;
+  background-attachment: fixed; }
+  .bg .text h1 {
+    position: relative;
+    font-size: 5rem;
+    color: white; 
+    align-content: center;
+    margin-top: 200px;
+  }
+
+
+@media (min-width: 2000px) {
+ 
+  .bg {
+    background: url(img/sofaNew.png);
+    background-size: cover;
+    height: 1400px;
+    background-attachment: fixed; }
+    .bg .text h1 {
+      margin: 400px 0 0 200px;
+      font-size: 7rem;
+      color: white; } }
