@@ -1,0 +1,263 @@
+.inicio{
+    background:url('img/banqueta1.png');
+    background-size: contain;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 700px;
+
+}
+
+.overlay{
+    width: 100%;
+    height: 100%;
+background: #1e130c;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to bottom, #9a8478, #1e130c);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to bottom, #9a8478, #1e130c); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    opacity: 0.8;
+}
+
+.text{
+    color: white;
+    padding-top: 15%;
+}
+
+.overlay h1{
+    font-size: 3rem;
+    color: #F5E7E4;
+}
+.overlay p {
+    color: #201E1D;
+    font-size: 2rem;
+}
+
+.navbar #menu {
+    margin-right: 100px;
+    margin-top: 20px;
+
+}
+
+.navbar #menu ul li a {
+    color: #ccc1b7;
+}
+
+.navbar #menu ul li a:hover {
+    color: #1e130c;
+}
+
+
+  #products {
+      font-family: 'Cormorant Garamond', serif;
+   }
+   #products {
+         font-family: 'Cormorant Garamond', serif;
+      }
+      .card{
+       margin: auto;
+       position: relative;
+       overflow: hidden;
+       border-radius: 10px 10px 10px 10px;
+       box-shadow: 100px;
+       transform: scale(0.95);
+       transition: box-shadow 0.2s, transform 0.5s;
+       width:300px;
+       height: 300px;
+      }
+      .card h4{
+       font-size: 20px;
+      }
+
+      .card img{
+       max-height: 200px;
+       min-width: 50%;
+       border: 5px solid #eddfc4;
+       background: white;
+       display: block;
+      margin-left: auto;
+      margin-right: auto;
+
+      }
+
+    .card:hover {
+      transform: scale(1);
+      box-shadow: 5px 20px 30px rgba(0, 0, 0, 0.2);
+      background: #eddfc4;
+
+       }
+
+.cordefundofooter nav li a {
+  font-size: 12px;
+  color: gray; }
+
+  @media (max-width: 1100px) {
+    #bgCadeiras{
+    background-size: 100%;
+    background-attachment: fixed;
+    height: 600px;
+    background-repeat: no-repeat;
+    }
+    #bgCadeiras .text{
+    margin-top: 150px;
+  font-family: 'Francois One', sans-serif;
+    width: 80%;
+    margin-left: 370px;
+
+  }
+
+  .cordefundofooter img{
+    width: 80%;
+  }
+
+  .cordefundofooter ul li a{
+    font-size: 1rem;
+  }
+
+  .navbar ul li a {
+    font-family: 'Oswald', sans-serif;
+    font-size: 12px;
+
+   }
+
+       }
+
+  @media (min-width: 1200px) {
+    #bgCadeiras{
+    background-size: cover;
+    background-attachment: fixed;
+    height: 800px;
+    background-repeat: no-repeat;
+    }
+    #bgCadeiras .text{
+    margin-top: 250px;
+  font-family: 'Francois One', sans-serif;
+    width: 80%;
+    margin-left: 370px;
+
+  }
+
+  .cordefundofooter img{
+    width: 50%;
+  }
+
+  .cordefundofooter ul li a{
+    font-size: 1rem;
+  }
+
+  .navbar ul li a {
+    font-size: 14px;
+
+   }
+
+       }
+
+  @media (min-width: 1100px) and (max-width: 1372px) {
+
+    #products {
+      margin-bottom: 200px; } }
+
+  @media (min-width: 2500px){
+    #bgCadeiras{
+    background-size: cover;
+    background-attachment: fixed;
+    height: 1300px;
+    background-repeat: no-repeat;
+    }
+    #bgCadeiras .text{
+    margin-top: 450px;
+  font-family: 'Francois One', sans-serif;
+    width: 80%;
+    margin-left: 370px;
+
+  }
+
+    #products h4 {
+      font-size: 3rem; }
+    #products a {
+      font-size: 2rem; }
+
+    #products .card {
+      margin-bottom: 200px;
+      margin: auto;
+      position: relative;
+      overflow: hidden;
+      border-radius: 10px 10px 10px 10px;
+      box-shadow: 100px;
+      transform: scale(0.95);
+      transition: box-shadow 0.2s, transform 0.5s;
+      width: 600px;
+      height: 750px;
+       }
+        .card img{
+      max-width: 500px;
+      max-height: 500px;
+      width: auto;
+      height: auto;
+      border: 5px solid #eddfc4;
+      background: white;
+      margin: 0 auto;
+      position: relative;
+     }
+     .card label{
+        font-size: 42px;
+     }
+
+    .navbar ul li a {
+      font-size: 38px;
+
+     }
+    .navbar-brand {
+      font-size: 3rem; }
+
+  .cordefundofooter img {
+    width: 80%;
+    height: 100%;
+
+   }
+
+    .navbar-brand{
+
+      font-size: 4rem;
+    }
+
+  .cordefundofooter nav li a {
+    font-size: 42px;
+    display: block;
+    color: gray; }
+
+  .cordefundofooter h6, h5{
+    font-size: 42px;
+  }
+  .cordefundofooter p{
+    font-size: 38px;
+  }
+  }
+
+  	@media(max-width: 768px){
+
+        .overlay h1{
+            padding-top: 200px;
+            font-size: 2rem;
+            color: black;
+        }
+        .overlay p {
+            color: darkslategray;
+            font-size: 1rem;
+        }
+
+  	}
+    @media(min-width: 1400px){
+
+        .overlay h1{
+            padding-top: 200px;
+            font-size: 4rem;
+            color: black;
+        }
+        .overlay p {
+            color: darkslategray;
+            font-size: 2rem;
+        }
+
+  		.cordefundofooter iframe{
+  				width: 100%;
+  		}
+  	}

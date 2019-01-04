@@ -1,12 +1,18 @@
-.bg{
+.bg3{
 		background: url(img/aparadorbg.jpg);
 	background-size:cover;
 	background-attachment: fixed;
-	height: 720px;
+	height: 620px;
 	background-repeat: no-repeat;
 }
 
-.bg .text{
+.overlay{
+	background-image: linear-gradient(to top, #c79081 0%, #dfa579 100%);
+	height: 100%;
+	opacity: 0.5;
+}
+
+.bg3 .text{
 	margin-top: 250px;
   font-family: 'Oswald', sans-serif;
 	width: 60%;
@@ -16,19 +22,25 @@
 
 }
 
-.bg h1{
+.bg3 h1{
 	font-size: 3rem;
+	color: #000;
     font-family: 'Oswald', sans-serif;
 }
 
-.navbar ul li a {
-  font-family: 'Oswald', sans-serif;
-  font-size: 12px;
-  margin-right: 15px; }
+.navbar #menu {
+	margin-right: 100px;
+	margin-top: 20px;
 
-.dropdown-menu a {
-  font-family: 'Oswald', sans-serif;
-  background: #eddfc4; }
+}
+
+.navbar #menu ul li a {
+	color: black;
+}
+
+.navbar #menu ul li a:hover {
+	color: black;
+}
 
   #products {
       font-family: 'Cormorant Garamond', serif;
@@ -80,7 +92,7 @@
  }
 
 	@media(min-width:2000px){
-		.bg{
+		.bg3{
 		background: url(img/aparadorbg.jpg);
 		background-size: cover;
 		background-attachment: fixed;
@@ -108,7 +120,7 @@
 		  font-size: 38px;
 		}
 
-		.bg .text{
+		.bg3 .text{
 			margin-top: 450px;
 			font-family: 'Do Hyeon', sans-serif;
 			width: 90%;
@@ -116,11 +128,11 @@
 
 		}
 
-		.bg h1{
+		.bg3 h1{
 			font-size: 6rem;
 		}
 
-				.bg p{
+				.bg3 p{
 					font-size: 3rem;
 				}
 
@@ -158,14 +170,14 @@
 	}
 
 @media(max-width: 768px){
-		.bg {
+		.bg3 {
 		background: url(img/aparadorbg.jpg);
 			background-size: 500px;
 			height: 400px;
 			background-repeat: no-repeat;
 		}
 
-		.bg .text{
+		.bg3 .text{
 			margin-top: 250px;
 			font-family: 'Do Hyeon', sans-serif;
 			width: 90%;
@@ -174,7 +186,7 @@
 
 		}
 
-		.bg .text h1{
+		.bg3 .text h1{
 			font-size: 1rem;
 		}
 		.navbar  {
@@ -184,7 +196,7 @@
 
 
 	@media(min-width: 1200px){
-	.bg{
+	.bg3{
 			background: url(img/aparadorbg.jpg);
 			background-size: cover;
 			background-attachment: fixed;
@@ -193,17 +205,17 @@
 
 
 		}
-	.bg .text{
+	.bg3 .text{
 			margin-top: 200px;
 			font-family: 'Do Hyeon', sans-serif;
 			width: 60%;
 			margin-left: 100px;
 		}
-		.bg h1{
+		.bg3 h1{
 			font-size: 4rem;
       width: 1000px;
 		}
-    .bg p{
+    .bg3 p{
         width: 1000px;
         	font-size: 2rem;
     }

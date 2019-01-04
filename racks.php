@@ -14,7 +14,7 @@
     <meta charset="utf-8">
     <title>Racks</title>
     <link rel="icon" href="css/img/table.png">
-    <link rel="stylesheet" href="css/racks.css">
+    <link rel="stylesheet" href="css/racks3.css">
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/font-awesome.min.css">
         <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -32,59 +32,42 @@
   </head>
   <body>
 
-    <nav class="navbar navbar-expand-md navbar-light fixed-top">
-      <a class="navbar-brand" href="index.php">
-        <img src="css/img/newlogo.png" class="img-fluid" style="width:200px">
-      </a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar1">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbar1">
-      <ul class="navbar-nav ml-auto">
-          <li class="nav-item"><a class="nav-link" href="index.php">
-             <img src="css/img/home.png">
-            Styllus</a>
-          </li>
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-            <img src="css/img/sofa.png">
-              Produtos
-          </a>
-          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-            <a class="dropdown-item" href="cadeiras.php">
-              Cadeiras
-            </a>
-            <!--<a class="dropdown-item" href="poltrona.php">-->
-            <!--  Poltronas</a>-->
+  <nav class="navbar navbar-expand-sm navbar-dark fixed-top">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#menu" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="menu">
+          <ul class="navbar-nav ml-auto">
+              <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                      MENU
+                  </a>
+                  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <a class="dropdown-item" href="cadeiras.php">Cadeiras</a>
+                      <a class="dropdown-item" href="banquetas.php">Banquetas & Bancos</a>
+                      <a class="dropdown-item" href="mesas.php">Mesas</a>
+                      <a class="dropdown-item" href="racks.php">Racks & Aparadores</a>
 
-            <a class="dropdown-item" href="banquetas.php">
-              Banquetas & Bancos</a>
-
-             <!--<a class="dropdown-item" href="mesas.php">-->
-             <!-- Mesas</a>-->
-
-              <a class="dropdown-item" href="racks.php">
-               Racks & Aparadores</a>
-          </div>
-        </li>
-        <li class="nav-item"><a class="nav-link" href="contact.php">
-            <img src="css/img/contact.png">
-          Contato</a></li>
-
-      </ul>
-    </div>
-    </nav>
-
-    <div class="bg">
-      <div class="container">
-        <div class="row">
-           <div class="text-center text">
-            <h1 class="mb-5">Diversas opções de racks para sala.
-                    Deixe seu ambiente ainda mais perfeito!</h1>
-            <p>Um design simples com estilo distinto</p>
-          </div>
-        </div>
+                      <div class="dropdown-divider"></div>
+                      <a class="dropdown-item" href="contact.php"> Contato</a>
+                  </div>
+              </li>
+          </ul>
       </div>
+  </nav>
+
+    <div class="bg3">
+        <div class="overlay">
+            <div class="container">
+                <div class="row">
+                    <div class="text-center text font-weight-bold">
+                        <h1 class="mb-5 font-weight-bold">Diversas opções de racks para sala.
+                            Deixe seu ambiente ainda mais perfeito!</h1>
+                        <p>Um design simples com estilo distinto</p>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
 
     <!-- products -->

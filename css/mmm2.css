@@ -7,21 +7,37 @@
   background-size: cover;
   height: 600px;
   background-attachment: fixed; }
+
+.overlay{
+    width: 100%;
+    height: 100%;
+    background-color: #DCD9D4;
+    background-image: linear-gradient(to bottom, rgba(255,255,255,0.50) 0%, rgba(0,0,0,0.50) 100%), radial-gradient(at 50% 0%, rgba(255,255,255,0.10) 0%, rgba(0,0,0,0.50) 50%);
+    background-blend-mode: soft-light,screen;
+    opacity: 0.7;
+}
   .text h3{
     position: relative;
     font-size: 3rem;
-    color: white;
+    color: black;
     align-content: center;
     margin-top: 200px;
   }
-  .navbar ul li a {
-    font-family: 'Oswald', sans-serif;
-    font-size: 14px;
-    margin-right: 0px; }
 
-  .dropdown-menu a {
-    font-family: 'Oswald', sans-serif;
-    background: #eddfc4; }
+.navbar #menu {
+    margin-right: 100px;
+    margin-top: 20px;
+
+}
+
+.navbar #menu ul li a {
+    color: #ccc1b7;
+}
+
+.navbar #menu ul li a:hover {
+    color: #696e79;
+}
+
 
   #products {
         font-family: 'Cormorant Garamond', serif;
@@ -90,7 +106,7 @@
     
     		.navbar  {
 			font-family: 'Oswald', sans-serif;
-			background: #eddfc4; }
+			 }
 }
 
 @media(min-width: 1400px){

@@ -19,7 +19,7 @@
     <link rel="stylesheet" href="css/font-awesome.min.css">
     <link rel="stylesheet" href="css/animate.min.css">
     <script src="js/jquery.min.js"></script>
-		<link rel="stylesheet" href="css/stylle_banqueta.css">
+		<link rel="stylesheet" href="css/stylle_banqueta2.css">
 		<link rel="stylesheet" href="css/lightbox.css">
     <!--  propagandas text-->
     <link href="https://fonts.googleapis.com/css?family=Patua+One" rel="stylesheet">
@@ -44,6 +44,7 @@
                     MENU
                 </a>
                 <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="index.php">Home</a>
                     <a class="dropdown-item" href="cadeiras.php">Cadeiras</a>
                     <a class="dropdown-item" href="banquetas.php">Banquetas & Bancos</a>
                     <a class="dropdown-item" href="mesas.php">Mesas</a>

@@ -21,7 +21,7 @@
     <link rel="stylesheet" href="css/EstiloCadeiras.css">
     <link rel="stylesheet" href="css/animate.min.css">
     <link rel="stylesheet" href="css/lightbox.css">
-      <script src="https://code.jquery.com/jquery-2.2.4.js"></script>
+      <script src="js/jquery.min.js"></script>
       <!--  propagandas text-->
     <link href="https://fonts.googleapis.com/css?family=Patua+One" rel="stylesheet">
     <!-- navbar text -->
@@ -34,18 +34,17 @@
   </head>
   <body>
 
-  <nav class="navbar navbar-expand-sm fixed-top">
+  <nav class="navbar navbar-expand-sm navbar-light fixed-top">
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#menu" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="menu">
           <ul class="navbar-nav ml-auto">
               <li class="nav-item dropdown">
-                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  <a class="nav-link dropdown-toggle" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                       MENU
                   </a>
                   <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                      <a class="dropdown-item" href="index.php">Home</a>
                       <a class="dropdown-item" href="cadeiras.php">Cadeiras</a>
                       <a class="dropdown-item" href="banquetas.php">Banquetas & Bancos</a>
                       <a class="dropdown-item" href="mesas.php">Mesas</a>
@@ -152,9 +151,5 @@
 
     <script src="js/bootstrap.min.js"></script>
     <script src="js/lightbox.js"></script>
-  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-  <script>
-      AOS.init();
-  </script>
   </body>
 </html>

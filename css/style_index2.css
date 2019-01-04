@@ -191,12 +191,10 @@ width: 10%;
 
       }
 
-      .overlay{
-        width: 100%;
-        height: 100%;
-        background-color: #696e79;
-        opacity: 0.8;
-      }
+        .navbar-toggler-icon{
+            background-color: #000;
+            border: 1px solid navajowhite;
+        }
 
       .overlay h1{
           font-size: 3rem;
